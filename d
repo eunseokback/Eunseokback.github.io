@@ -92,8 +92,7 @@
     </div>
 
     <!-- 🔊 오디오 추가 -->
-    <audio id="background-audio" autoplay loop muted>
-        <source src="The Duck Song.mp3" type="audio/mpeg">
+        <audio src="The Duck Song.mp3" controls>
         Your browser does not support the audio element.
     </audio>
 
