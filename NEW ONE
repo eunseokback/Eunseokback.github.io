@@ -91,11 +91,10 @@
         <h1>Plunger Award</h1>
         <h2>Band Bio</h2>
     </div>
-
-    <audio id="background-audio" autoplay loop muted>
-        <source src="The Duck Song.mp3">
+<p> 
+    <audio src="The Duck Song.mp3" controls>
         Your browser does not support the audio element.
-    </audio>
+    </p>
 
     <div class="content">
         <div class="nav-links">
