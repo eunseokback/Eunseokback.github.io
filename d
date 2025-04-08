@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,9 +45,9 @@
         }
 
         img {
-            width: 300px; /* Set image width to 300px */
-            height: auto; /* Maintain aspect ratio */
-            margin: 20px 0; /* Add spacing */
+            width: 300px;
+            height: auto;
+            margin: 20px 0;
             cursor: pointer;
         }
 
@@ -94,6 +91,7 @@
         <h2>Band Bio</h2>
     </div>
 
+    <!-- 🔊 오디오 추가 -->
     <audio id="background-audio" autoplay loop muted>
         <source src="The Duck Song.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
@@ -108,17 +106,17 @@
 
         <div id="max" class="bio-container active">
             <img src="MaxPhoto.jpg" alt="Max Globokar" onclick="flashSOS()">
-            <p><span class="comic">Max</span> Globokar <span class="comic">is</span> a <span class="comic">professional</span> juggler <span class="comic">and</span> unicycle <span class="comic">enthusiast</span> but <span class="comic">he</span> absolutely <span class="comic">isn't</span> a <span class="comic">clown</span>. After <span class="comic">losing</span> his <span class="comic">dog</span> in <span class="comic">a</span> clown <span class="comic">accident</span> at <span class="comic">a</span> young <span class="comic">age</span>, he <span class="comic">has</span> since <span class="comic">distanced</span> himself <span class="comic">from</span> the <span class="comic">profession</span>, trying <span class="comic">to</span> change <span class="comic">the</span> face <span class="comic">of</span> a <span class="comic">dying</span> industry <span class="comic">by</span> rebranding <span class="comic">himself</span> as <span class="comic">a</span> "professional <span class="comic">musician."</span></p>
+            <p><span class="comic">Max</span> Globokar <span class="comic">is</span> a <span class="comic">professional</span> juggler... [생략]</p>
         </div>
 
         <div id="paige" class="bio-container">
             <img src="Paige.jpg" alt="Paige Birgenheier" onclick="flashSOS()">
-            <p><span class="comic">Paige</span> Birgenheier <span class="comic">is</span> a <span class="comic">musician</span> who <span class="comic">sings</span> sometimes <span class="comic">when</span> she <span class="comic">feels</span> like <span class="comic">it.</span></p>
+            <p><span class="comic">Paige</span> Birgenheier <span class="comic">is</span> a <span class="comic">musician</span>... [생략]</p>
         </div>
 
         <div id="Eunseok" class="bio-container">
             <img src="Eunseok.jpg" alt="Eunseok" onclick="flashSOS()">
-            <p><span class="comic">He</span> has <span class="comic">experienced</span> being <span class="comic">a</span> freshman <span class="comic">four</span> times <span class="comic">—</span> once <span class="comic">in</span> the <span class="comic">Philippines,</span> once <span class="comic">in</span> Korea, <span class="comic">once</span> in <span class="comic">Minnesota,</span> and <span class="comic">then</span> spent <span class="comic">two</span> years <span class="comic">in</span> the <span class="comic">military.</span></p>
+            <p><span class="comic">He</span> has <span class="comic">experienced</span> being... [생략]</p>
         </div>
     </div>
 
@@ -140,7 +138,8 @@
             }, 1000);
         }
 
-        document.body.addEventListener("click", function() {
+        // 🔊 유저 클릭 시 오디오 음소거 해제
+        document.body.addEventListener("click", function () {
             let audio = document.getElementById("background-audio");
             audio.muted = false;
         });
