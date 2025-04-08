@@ -1,4 +1,6 @@
 
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -92,6 +94,10 @@
         <h2>Band Bio</h2>
     </div>
 
+    <audio id="background-audio" autoplay loop muted>
+        <source src="The Duck Song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
 
     <div class="content">
         <div class="nav-links">
@@ -139,10 +145,6 @@
             audio.muted = false;
         });
     </script>
-    <p> 
-        <audio src="The Duck Song.mp3" controls>
-            Your browser does not support the audio element.
-        </p>
 </body>
 </html>
 
