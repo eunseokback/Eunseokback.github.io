@@ -91,10 +91,7 @@
         <h1>Plunger Award</h1>
         <h2>Band Bio</h2>
     </div>
-<p> 
-    <audio src="The Duck Song.mp3" controls>
-        Your browser does not support the audio element.
-    </p>
+
 
     <div class="content">
         <div class="nav-links">
@@ -142,6 +139,10 @@
             audio.muted = false;
         });
     </script>
+    <p> 
+        <audio src="The Duck Song.mp3" controls>
+            Your browser does not support the audio element.
+        </p>
 </body>
 </html>
 
