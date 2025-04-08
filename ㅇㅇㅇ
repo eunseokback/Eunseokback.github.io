@@ -29,6 +29,7 @@
   <p>No, this project is only for this class. (Professor’s name goes here.)</p>
 
   <h2>Project Goals</h2>
+
   <h3>GOOD Outcome</h3>
   <ul>
     <li>A working site with a list of pedals and basic info</li>
@@ -51,4 +52,15 @@
 
   <h2>Timeline</h2>
   <ul>
-    <li><strong>Week 1:</
+    <li><strong>Week 1:</strong> Plan content and collect pedal data (images, info, videos). Set up the project with React.</li>
+    <li><strong>Week 2:</strong> Build main pages (home, pedal list). Start applying styles with Tailwind.</li>
+    <li><strong>Week 3:</strong> Add filtering, search, and media embedding.</li>
+    <li><strong>Week 4:</strong> Improve design and mobile experience. Try adding user login if time allows.</li>
+    <li><strong>Week 5:</strong> Final testing, polish, and deployment. Prepare presentation.</li>
+  </ul>
+
+  <h2>What I Need to Learn</h2>
+  <p>I’ll need to learn more about Firebase, React hooks, and how to embed video/audio effectively.</p>
+
+</body>
+</html>
