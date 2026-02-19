@@ -1,3 +1,1 @@
-#Eunseok Back
-#LMSC-261
-#Feburary 19 2026
+#Eunseok Back LMSC-261 Feburary 19 2026
