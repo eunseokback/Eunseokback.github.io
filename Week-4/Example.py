@@ -38,5 +38,8 @@ print(x !=y)
 data_type_of_23=type(23)
 print (data_type_of_23)
 
-print(true==1)
-print(type(true)==type(1))
+
+
+
+user_name=input("what is your name?")
+print("hello"+user_name)
